@@ -1,0 +1,12 @@
+hostname: f5whatever.intouchprod.net
+license_key: AAAAA-BBBBB-CCCCC-DDDDD-EEEEEEE
+local_dns: 10.230.1.228
+backup_dns: 10.230.2.228
+root_pwd: password1
+local_admin_pwd: LocalAdmin
+f5admin_pwd: F5adminPWD
+bigsvc_pwd: bigpass
+transit_self_ip: 10.230.1.220
+default_v6_gw: 10.230.1.220
+mgmt_route_gw: 1.1.1.1
+gui_banner_message: Stagging|Production
