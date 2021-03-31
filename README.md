@@ -1,8 +1,10 @@
 # f5-onboarding
 
-soon
+There's a Confluence article explaining the steps required to push our JSON configuration. 
+For more information on how to prepare the F5 and the steps involved to push the JSON configuration read this Confluence
+article: [\[NetOps\] How To: F5 Declarative Onboarding (DO)](https://intouchhealth.atlassian.net/wiki/spaces/TEC/pages/2071364755/NetOps+How+To+F5+Declarative+Onboarding+DO)
 
-### NEXT
+### Next
 - Add device certificate on template
 - Different AWS routes for PRD/STG
 
