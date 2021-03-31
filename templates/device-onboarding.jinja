@@ -56,7 +56,7 @@
             "password": "{{ f5admin_pwd }}",
             "shell": "bash",
             "partitionAccess": {
-                "Common": {
+                "all-partitions": {
                     "role": "admin"
                 }
             }
@@ -67,7 +67,7 @@
             "password": "{{ bigsvc_pwd }}",
             "shell": "bash",
             "partitionAccess": {
-                "Common": {
+                "all-partitions": {
                     "role": "admin"
                 }
             }
@@ -99,18 +99,6 @@
         "defaultv6": {
             "class": "Route",
             "gw": "{{ default_v6_gw }}",
-            "network": "default",
-            "mtu": 1500
-        },
-        "aws-stg-general-uw2-vpc": {
-            "class": "Route",
-            "gw": "10.10.0.1",
-            "network": "default",
-            "mtu": 1500
-        },
-        "managementRoute": {
-            "class": "ManagementRoute",
-            "gw": "{{ mgmt_route_gw }}",
             "network": "default",
             "mtu": 1500
         },
@@ -192,7 +180,7 @@
                 "debug": false,
                 "encryption": true,
                 "protocol": "ip",
-                "secret": "aSecret1",
+                "secret": "{{ tacacs_secret }}",
                 "servers": [
                     "10.226.1.9",
                     "10.230.1.9"

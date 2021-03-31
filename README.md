@@ -4,6 +4,7 @@ soon
 
 ### NEXT
 - Add device certificate on template
+- Different AWS routes for PRD/STG
 
 ##### Sources
 - https://clouddocs.f5.com/products/extensions/f5-declarative-onboarding/latest/composing-a-declaration.html
