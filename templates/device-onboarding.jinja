@@ -199,6 +199,15 @@
                 ],
                 "service": "ppp"
             }
+        },
+        "deviceCertificate": {
+            "class": "DeviceCertificate",
+            "certificate": {
+                "base64": "{{ cert_base64 }}"
+            },
+            "privateKey": {
+                "base64": "{{ cert_key_base64 }}"
+            }
         }
     }
 }
